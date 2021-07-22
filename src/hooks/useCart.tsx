@@ -22,7 +22,7 @@ interface CartContextData {
 const CartContext = createContext<CartContextData>({} as CartContextData);
 export function CartProvider({ children }: CartProviderProps): JSX.Element {
   const [cart, setCart] = useState<Product[]>(() => {
-     const storagedCart = localStorage.getItem('@RocketShoes:cart');
+     const storagedCart = localStorage.getItem('@AppleFun:cart');
     
      if (storagedCart) {
        return JSON.parse(storagedCart);
@@ -49,14 +49,14 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
           }) 
 
           setCart(newProduct)
-          localStorage.setItem('@RocketShoes:cart', JSON.stringify(newProduct))
+          localStorage.setItem('@AppleFun:cart', JSON.stringify(newProduct))
         }
        
 
         if(!exist) {
             item['amount'] = 1
             setCart([...cart, item])
-            localStorage.setItem('@RocketShoes:cart', JSON.stringify([...cart, item]))
+            localStorage.setItem('@AppleFun:cart', JSON.stringify([...cart, item]))
           }
           else if(exist.amount < maxStock) {
             let amount = exist.amount + 1
@@ -82,7 +82,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 
       if(remainingProducts) {
         setCart(remainingProducts)
-        localStorage.setItem('@RocketShoes:cart', JSON.stringify(remainingProducts))
+        localStorage.setItem('@AppleFun:cart', JSON.stringify(remainingProducts))
       } 
     } catch {
       toast.error('Erro na remoção do produto');
@@ -106,7 +106,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
           return item
         }) 
         setCart(newProducts)
-        localStorage.setItem('@RocketShoes:cart', JSON.stringify(newProducts))
+        localStorage.setItem('@AppleFun:cart', JSON.stringify(newProducts))
       }
 
       if(amount <= maxStock) {
