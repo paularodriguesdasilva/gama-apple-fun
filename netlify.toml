@@ -1,7 +1,6 @@
-callback(null, {
-  statusCode: 200,
-  body: "Hello, world!"
-  headers: {
-    "access-control-allow-origin": "*"
-  }
-})
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "*"
+    Access-Control-Allow-Headers = "*"
