@@ -16,16 +16,21 @@ export const Container = styled.header`
   }
 
   a {
-    transition: opacity 0.2s;
     text-decoration: none;
     transition: 0.3s;
 
     &:hover {
-      opacity: 0.7;
-      font-size: 18px;
+      color: #ffff;
+      font-size: 16px;
     }
-    
   }
+
+  @media (max-width: 496px) {
+    img {
+    height: 35px;
+    width: 90px;
+    }
+    }
 `;
 
 export const Info = styled.div`
@@ -41,10 +46,18 @@ export const Info = styled.div`
       margin-left: 8px;
       margin: 20px;
       cursor: pointer;
+      transition: 0.3s;
 
       &:hover {
         color: #ffff;
+        font-size: 16px;
       }
+    }
+
+    @media (max-width: 496px) {
+      visibility: hidden;
+      width: 0%;
+      height: 0%;
     }
 `;
 
@@ -57,12 +70,41 @@ export const Cart = styled(Link)`
     text-align: right;
     margin-right: 10px;
 
-    span {
-      font-size: 12px;
-      color: #999;
-      margin-left: 8px;
+  }
+
+  .login {
+    border: solid #fff 2px;
+    padding: 4px;
+    border-radius: 8px;
+    margin-right: 30px;
+
+    &:hover {
+      background: #f2f2f2;
+      color: #303030;
+      font-size: 15px;
     }
   }
+
+  span {
+      font-size: 15px;
+      color: #999;
+      margin-left: 10px;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        color: #ffff;
+        font-size: 15px;
+      }
+    }
+
+    @media (max-width: 496px) {
+      .login {
+        font-size: 12px;
+      }
+    }
+
 `;
 
 

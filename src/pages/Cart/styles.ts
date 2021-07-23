@@ -62,12 +62,12 @@ export const ProductTable = styled.table`
     display: flex;
     align-items: center;
 
-    input {
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      color: #666;
-      padding: 6px;
-      width: 50px;
+  input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #666;
+    padding: 6px;
+    width: 50px;
     }
   }
 
@@ -94,6 +94,27 @@ export const ProductTable = styled.table`
       }
     }
   }
+
+  
+  @media (max-width: 496px) {
+    img {
+    height: 0px;
+    }
+    thead th {
+    color: #999;
+    text-align: left;
+    padding: 2px;
+    }
+
+    tbody td {
+    padding: 0px;
+    border-bottom: 1px solid #eee;
+    }
+    
+    tr {
+      margin: 100px;
+    }
+  }
 `;
 
 export const Total = styled.div`
@@ -108,5 +129,11 @@ export const Total = styled.div`
   strong {
     font-size: 28px;
     margin-left: 5px;
+  }
+
+  @media (max-width: 496px) {
+    span {
+      margin-left: 10px;
+    }
   }
 `;

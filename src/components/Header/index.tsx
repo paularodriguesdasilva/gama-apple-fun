@@ -30,6 +30,9 @@ const Header = (): JSX.Element => {
       </S.Info>
 
       <Cart to="/cart">
+        <Link to="/login">
+        <span className="login"> Cadastre-se </span>
+        </Link>
         <MdLocalGroceryStore size={26} color="#FFF" />
         <div>
           <span data-testid="cart-size">
