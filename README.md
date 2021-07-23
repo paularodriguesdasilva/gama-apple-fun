@@ -24,9 +24,10 @@ estruturados no localstorage. Para este projeto, foi desenvolvido uma loja de f�
 git clone https://github.com/olucasklein/gama-apple-fun.git
 
 <h2>Para iniciar a aplicação:</h2>
-Instale os pacotes com npm i
-Inicie o server com npm run server
-Rode a aplicação com npm run start
+
+- Instale os pacotes com npm i
+- Inicie o server com npm run server
+- Rode a aplicação com npm run start
 
 <h2>📝 Licença</h2>
 Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
