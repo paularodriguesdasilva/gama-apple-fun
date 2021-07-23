@@ -8,7 +8,8 @@
 📖 - Projeto para o Desafio 2 do #hiringcoders, com o intúito de desenvolver um sistema de E-commerce, que guarde dados de clientes, endereços, produtos, devidamente
 estruturados no localstorage. Para este projeto, foi desenvolvido uma loja de fã da Apple, que possui sistema de cadastro e de carrinho com os produtos que estão cadastrados.
 
-📖 - API-Fake utilizada para funcionar como uma "database" dos produtos.
+📖 - API-Fake criada com o site <a href="https://my-json-server.typicode.com/">My Json Server</a>, utilizada para funcionar como uma "database" dos produtos
+📖 - <a href="https://github.com/olucasklein/gama-apple-fun-fakeapi">Link do Repositório da API-Fake</a>  
 
 <h2>🚀 Tecnologias utilizadas: </h2>
 
