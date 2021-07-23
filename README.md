@@ -1,6 +1,6 @@
 <h1 align="center">Apple-Fun</h1>
 <p align="center">Projeto desenvolvido durante o Hiring coders da VTEX com Gama Academy</p>
-<p align="center">Preview: https://apple-fun.netlify.app//</p>
+<p align="center">Preview: https://apple-fun.netlify.app/</p>
 <img src="./apple-fun1.png">
 <img src="./apple-fun2.png">
 <img src="./apple-fun3.png">
