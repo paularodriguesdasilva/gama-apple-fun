@@ -19,7 +19,7 @@ estruturados no localstorage. Para este projeto, foi desenvolvido uma loja de f√
 - JavaScript
 - React
 - Styled Components
-- API-Fake
+- Fake-Api
 
 <h2>Para iniciar o projeto use: </h2>
 git clone https://github.com/olucasklein/gama-apple-fun.git
