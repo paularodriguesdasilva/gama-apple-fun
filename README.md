@@ -8,6 +8,8 @@
 📖 - Projeto para o Desafio 2 do #hiringcoders, com o intúito de desenvolver um sistema de E-commerce, que guarde dados de clientes, endereços, produtos, devidamente
 estruturados no localstorage. Para este projeto, foi desenvolvido uma loja de fã da Apple, que possui sistema de cadastro e de carrinho com os produtos que estão cadastrados.
 
+📖 - API-Fake utilizada para guardar e retornar os parâmetros dos produtos
+
 <h2>🚀 Tecnologias utilizadas: </h2>
 
 - HTML
