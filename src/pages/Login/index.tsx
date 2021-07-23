@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import * as S from './styles';
 
@@ -24,6 +25,8 @@ const Login = (): JSX.Element => {
     localStorage.setItem('login', convertData)
 
     alert("Cadastro Efetuado!")
+
+
   }
 
   return (

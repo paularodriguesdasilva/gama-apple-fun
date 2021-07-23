@@ -1,7 +1,5 @@
-import { privateDecrypt } from 'crypto';
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   MdDelete,
   MdAddCircleOutline,
@@ -122,7 +120,9 @@ const Cart = (): JSX.Element => {
           </tbody>
         </ProductTable>
       <footer>
+      <Link to="/">
         <button onClick={() => alert('Espero que tenha gostado da aplicação!')} type="button">Finalizar pedido</button>
+      </Link>
 
         <Total>
           <span>TOTAL</span>
