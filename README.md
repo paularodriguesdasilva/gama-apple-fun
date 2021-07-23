@@ -13,7 +13,6 @@ estruturados no localstorage. Para este projeto, foi desenvolvido uma loja de fÃ
 <h2>ðŸš€ Tecnologias utilizadas: </h2>
 
 - HTML
-- CSS
 - TypeScript
 - React
 - Styled Components
