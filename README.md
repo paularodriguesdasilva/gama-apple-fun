@@ -16,6 +16,7 @@ estruturados no localstorage. Para este projeto, foi desenvolvido uma loja de f√
 
 - HTML
 - TypeScript
+- JavaScript
 - React
 - Styled Components
 - API-Fake
